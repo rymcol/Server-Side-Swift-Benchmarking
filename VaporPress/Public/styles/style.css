@@ -1,0 +1,64 @@
+//
+//  style.css
+//  PerfectPress
+//
+//  Created by Ryan Collins on 6/9/16.
+//	Copyright (C) 2016 Ryan M. Collins.
+//
+//===----------------------------------------------------------------------===//
+//
+// This source file is part of the PerfectPress open source blog project
+//
+//===----------------------------------------------------------------------===//
+//
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,300italic,400italic,600italic,700,700italic,800,800italic);
+
+body {
+	background: #ccc;
+}
+
+.logo {
+	width: 228px; height: 60px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.feature-image {
+	max-height: 300px;
+}
+
+/* === Header === */
+
+header {
+	margin: 40px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav ul li a {
+	font-size: 18px;
+	font-weight: 600;
+	color: #2D79B6;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #3d3d3d;
+}
+
+.banner {
+	max-width: 766px; max-height: 354px;
+}

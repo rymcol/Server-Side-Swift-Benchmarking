@@ -1,0 +1,7 @@
+{
+	"default": {
+		"port": 8484,
+		"host": "169.254.237.101",
+		"securityLayer": "none"
+	}
+}

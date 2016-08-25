@@ -1,0 +1,28 @@
+{{>header}}
+
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <form method="POST" action="/admin/post" id="add-post-form">
+              <div class="form-group">
+                <label for="postTitle">Post Title:</label>
+                <input type="text" name="post_title" placeholder="Post Title" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="postContent">Content:</label>
+                <textarea rows="6" cols="100" name="postContent" form="add-post-form" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="checkbox" name="makeFrontPage" value="FrontPage"> Make This The Front Page?
+                </label>
+              </div>
+                <button type="submit" class="btn btn-default" value="post">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{{>footer}}

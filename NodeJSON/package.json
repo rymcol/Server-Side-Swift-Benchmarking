@@ -1,0 +1,24 @@
+{
+  "name": "nodepress",
+  "version": "1.0.0",
+  "description": "Blog to benchmark with server-side swift frameowrks",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rymcol/NodePress.git"
+  },
+  "author": "Ryan Collins",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rymcol/NodePress/issues"
+  },
+  "homepage": "https://github.com/rymcol/NodePress#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}

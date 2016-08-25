@@ -1,0 +1,3 @@
+// Startpoint
+
+require('./app/index')  

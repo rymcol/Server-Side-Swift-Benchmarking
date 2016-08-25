@@ -1,0 +1,19 @@
+{{>header}}
+
+  <section id="content">
+    <div class="container">
+          {{#content}}
+
+            <div class="row blog-post">
+                <div class="col-xs-12">
+                    <h1>{{post_title}}</h1>
+                    <img src="{{featuredImageURI}}" alt="{{featuredImageAltText}}" class="alignleft feature-image img-responsive" />
+                    <div class="content">{{{post_content}}}</div>
+                </div>
+            </div>
+
+          {{/content}}
+    </div>
+  </section>
+
+{{>footer}}

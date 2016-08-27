@@ -3,7 +3,7 @@
 const express = require('express')
 const app = express()
 const port = 8585
-const host = "0.0.0.0" //"169.254.237.101"
+const host = "169.254.237.101"
 
 const indexHandler = require('./indexHandler')
 const blogHandler = require('./blogHandler')
